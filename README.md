@@ -2,7 +2,7 @@
 
 ## Summon a Personal Board of Advisors with AI
 
-This repository is a guide to creating a personalized board of AI advisors to support problem-solving, personal growth, and insight. By carefully crafting these advisor personalities and grounding them both in cultural lineages (academic, philosophical, spiritual, etc.) and your own personal aspirations, you can initiate a mode of conversation that is substantive, surprising, and sometimes deeply meaningful, with more dynamic feedback than journaling.
+This repository is a guide to creating a personalized board of AI advisors to support problem-solving, personal growth, and insight. By carefully crafting these advisor personalities and grounding them both in specific cultural lineages (academic, philosophical, spiritual, artistic, etc.) and your own personal aspirations, you can initiate a mode of conversation that is substantive, surprising, and sometimes deeply meaningful, with more dynamic feedback than journaling.
 
 This is part one of a larger project exploring frameworks and methods for using Large Language Models for personal growth. If you are interested being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://8t851oj5v8u.typeform.com/to/JeZao3Mi).
 
@@ -11,7 +11,7 @@ This is part one of a larger project exploring frameworks and methods for using 
 * Structured process for discovering and defining your ideal AI advisors
 * Tools for refining advisor personalities and expertise
 * Framework for ongoing dialogue and journaling
-* Safety guidelines and principles
+* Safety guidelines and considerations
 
 ## Project Principles
 
@@ -24,18 +24,18 @@ This is part one of a larger project exploring frameworks and methods for using 
 
 ### 1. Worksheets
 
-* **basic_worksheet.md**: Initial questionnaire to help users identify potential advisor archetypes (Recommended for most people getting started)
-* **detailed_worksheet.md**: Detailed exploration guide for defining advisor characteristics, intellectual traditions, and areas of expertise (Recommended if you'd like to do a deeper self reflection to give more context when creating your advisors)
+- [basic_worksheet.md](Worksheets/basic_worksheet.md): Initial questionnaire to help users identify potential advisor archetypes.
+- [detailed_worksheet.md](Worksheets/detailed_worksheet.md): Detailed guide for defining advisor characteristics.
 
 ### 2. Prompts
 
-* **advisor_search.txt**: Prompt template for generating initial advisor recommendations (yields 10 potential advisors) and developing 3 final advisor personalities
-* **advisor_refinement.txt**: Prompt template for narrowing down and developing 3 final advisor personalities
-* **journal_startup.txt**: Prompt template for initiating dialogue with your board of advisors
+- [advisor_search.txt](Prompts/advisor_search.txt): Generate initial advisor recommendations.
+- [advisor_refinement.txt](Prompts/advisor_refinement.txt): Narrow down and refine advisor personalities.
+- [journal_startup.txt](Prompts/journal_startup.txt): Initiate dialogue with your board of advisors.
 
 ### 3. Documentation
 
-* **safety_guidelines.md**: Important considerations and best practices for responsible AI interaction
+- [safety_guidelines.md](safety_guidelines.md): Important considerations for responsible AI interaction.
 * **example_sessions/**: Directory containing sample dialogues and use cases (TODO)
 * **advisor_templates/**: Collection of pre-crafted advisor archetypes that users can adapt (TODO)
 
