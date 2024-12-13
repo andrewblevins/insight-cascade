@@ -1,6 +1,8 @@
-# AI Board of Advisors Journaling
+# Insight Cascade
 
-This repository is a guide to creating a personalized board of AI advisors to support problem-solving, personal growth, and insight. By carefully crafting these advisor personalities and grounding them both in existing areas of human knowledge (academic, philosophical, spiritual, etc.) and your own personal aspirations, you can initiate a mode of conversation that is substantive, surprising, and sometimes deeply meaningful, with more dynamic feedback than journaling.
+## Summon a Personal Board of Advisors with AI
+
+This repository is a guide to creating a personalized board of AI advisors to support problem-solving, personal growth, and insight. By carefully crafting these advisor personalities and grounding them both in cultural lineages (academic, philosophical, spiritual, etc.) and your own personal aspirations, you can initiate a mode of conversation that is substantive, surprising, and sometimes deeply meaningful, with more dynamic feedback than journaling.
 
 This is part one of a larger project exploring frameworks and methods for using Large Language Models for personal growth. If you are interested being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://8t851oj5v8u.typeform.com/to/JeZao3Mi).
 
