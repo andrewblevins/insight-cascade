@@ -47,13 +47,13 @@ This is part one of a larger project exploring frameworks and methods for using 
 
 ## Getting Started
 
-1. Review the safety_guidelines document
-2. Complete the basic_worksheet to identify your needs and goals
-3. Paste your filled-out worksheet and the advisor_search prompt to generate potential advisor profiles
-4. In the same chat, refine your selection to three advisors through dialogue
-5. Use the advisor_getter prompt to pull out your three advisors
-6. Initialize your journal using the journal_startup prompt*
-7. Begin regular dialogue with your board of advisors
+1. Review the [safety_guidelines.md](safety_guidelines.md) document  
+2. Complete the [basic_worksheet.md](Worksheets/basic_worksheet.md) to identify your needs and goals  
+3. Paste your filled-out worksheet and the [advisor_search.txt](Prompts/advisor_search.txt) prompt to generate potential advisor profiles  
+4. In the same chat, refine your selection to three advisors through dialogue  
+5. Use the [advisor_refinement.txt](Prompts/advisor_refinement.txt) prompt to pull out your three advisors  
+6. Initialize your journal using the [journal_startup.txt](Prompts/journal_startup.txt) prompt  
+7. Begin dialogue with your board of advisors
 
 *As an optional modulation, you might also include the initial worksheet in your starting prompt. This will cause you to reach the usage limit faster, but will give the LLM richer context to draw from.
 
