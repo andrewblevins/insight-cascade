@@ -15,7 +15,7 @@ This is part one of a larger project exploring frameworks and methods for using 
 
 ## Project Principles
 
-1. Maintain awareness. Regularly reflect on your use of vAI. When it is helpful, how is it helpful (or not), and why? 
+1. Maintain awareness. Regularly reflect on your use of AI. When it is helpful, how is it helpful (or not), and why? 
 2. Use AI to deepen human relationships — not to avoid, fix, replace, or optimize them.
 3. Focus on what you want to see more of in the world.
 4. Keep a sense of humor. Perhaps this is nothing but an interesting and temporary game.
