@@ -47,7 +47,7 @@ This is part one of a larger project exploring frameworks and methods for using 
 
 ## Getting Started
 
-1. Review the [safety_guidelines.md](safety_guidelines.md) document  
+1. Review the [safety_guidelines.md](safety_guidelines.md) document (really! they're interesting!)
 2. Complete the [basic_worksheet.md](Worksheets/basic_worksheet.md) to identify your needs and goals  
 3. Paste your filled-out worksheet and the [advisor_search.txt](Prompts/advisor_search.txt) prompt to generate potential advisor profiles  
 4. In the same chat, refine your selection to three advisors through dialogue  
@@ -59,11 +59,11 @@ This is part one of a larger project exploring frameworks and methods for using 
 
 ## Best Practices
 
-* Maintain consistent advisor personalities across sessions
-* Document interesting insights and breakthrough moments
-* Regularly review and refine advisor profiles as needed
-* Follow safety guidelines for responsible AI interaction
-* Use the advanced worksheet for deepen advisor development
+* Use prompting and feedback to maintain conversational integrity
+* Document insights and breakthrough moments separately
+* Review and refine advisor profiles as needed
+* If things get stale, switch up your advisors
+* Try new things—there's a huge amount of uncharted territory here
 
 ## Contributing
 
