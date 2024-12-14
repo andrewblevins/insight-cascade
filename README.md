@@ -30,7 +30,7 @@ This is part one of a larger project exploring frameworks and methods for using 
 ### 2. Prompts
 
 - [1.advisors_search.txt](Prompts/1.advisors_search.txt): Generate initial advisor recommendations.
-- [2.advisors_output.txt](Prompts/2.advisors_output.txt): Narrow down and refine advisor personalities.
+- [2.advisors_output.txt](Prompts/2.advisors_output.txt): Get your chosen advisor personalities in usable form.
 - [3.journal_startup.txt](Prompts/3.journal_startup.txt): Initiate dialogue with your board of advisors.
 
 ### 3. Documentation
