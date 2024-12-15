@@ -33,6 +33,7 @@ Since we currently recommend using Claude-3.5-Sonnet for this process, here are 
 **Retention:**
 * Your prompts and conversations are stored to maintain your conversation history until you delete them or your account.
 * Deleting conversations removes them immediately from your visible history, with backend deletion occurring within 30 days.
+
 **Exceptions:**
 * If a prompt is flagged for violating the [Anthropic Usage Policy](https://www.anthropic.com/legal/aup), Anthropic may retain the input and output for up to 2 years, and associated trust and safety classification scores for up to 7 years, "to enhance safety measures."
 
@@ -41,7 +42,9 @@ Anthropic claims they do not use your conversations for model training unless:
 * Conversations are flagged for safety review.
 * You explicitly give feedback on responses (e.g. by clicking the thumbs-up/thumbs-down buttons).
 * You otherwise opt in to model training.
-Do not share financial details, medical information, private communications, or information others might consider confidential. Also be mindful when referring to real people by name.
+
+
+It is best not to share financial details, medical information, private communications, or information others might consider confidential. Also be mindful when referring to real people by name.
 
 ### 3. Using Real People as Advisors 
 
