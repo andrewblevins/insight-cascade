@@ -4,7 +4,7 @@
 
 This repository is a guide to creating a personalized board of AI advisors to support problem-solving, personal growth, and insight. By carefully crafting these advisor personalities and grounding them both in specific cultural lineages (academic, philosophical, spiritual, artistic, etc.) and your own personal aims, you can initiate a mode of conversation that is substantive, surprising, and sometimes deeply meaningful, with more dynamic feedback than journaling.
 
-This is part one of a larger project exploring frameworks and methods for using Large Language Models for personal and social discovery. If you are interested being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://8t851oj5v8u.typeform.com/to/JeZao3Mi).
+This is part one of a larger project exploring frameworks and methods for using Large Language Models for personal and social discovery. If you are interested in being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://8t851oj5v8u.typeform.com/to/JeZao3Mi).
 
 ## What's Here
 
