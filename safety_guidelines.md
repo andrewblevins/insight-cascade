@@ -2,7 +2,7 @@
 
 This project invites you to experiment with new technologies of thought, attention, and information. Wielding powerful tools is never risk-free. We believe that creative, effective conversations with LLMs have the potential to radically improve the lives of some people. But it is equally true that they may lead many of us to places that are vulnerable, unsettling, or even destabilizing.
 
-This document attempts to acquaint you with the risks we are aware of. It begins with immediate risks (thinks you'll want to think about before experimenting at all) before considering larger and more nebulous risks. 
+This document attempts to acquaint you with the risks we are aware of. It begins with immediate risks (things you'll want to think about before experimenting at all) before considering larger and more nebulous risks. 
 
 It needs to be said that this is our first attempt at cataloguing risks and the actual greatest risks are probably unknown to us. Such is the nature of engaging with emergent hyperstimuli.
 
@@ -82,4 +82,4 @@ We are in abundant support of anyone who decides that, on the basis of the above
 
 For those who do choose to engage, we think the best ways to mitigate risk are by developing intelligent frameworks and supportive communities of practice. We aim to continue doing both. 
 
-For more about how we’re approaching this, see the Principles section in our README. 
+For more about how we’re approaching this, see the Principles section in our [README](README.md). 
