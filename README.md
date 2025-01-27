@@ -82,3 +82,7 @@ And here's the link to get involved again: [Google Form](https://forms.gle/svMNn
 ## Disclaimer
 
 These tools are designed for personal growth and reflection. They are not substitutes for professional medical, psychological, or therapeutic advice.
+
+## Acknowledgments
+
+Insight Cascade would not be possible without the generous support of the Context Appreciation Society.
