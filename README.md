@@ -6,7 +6,7 @@ This repository is a guide to creating a personalized board of AI advisors to su
 
 This is part one of a larger project exploring frameworks and methods for using Large Language Models for personal and social discovery. If you are interested in being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://forms.gle/svMNnjJjJdFUjQ9L8).
 
-[**SPACE**](www.spaceterminal.xyz) is a simple interface designed to support advisor conversations. Try it and let us know what you think / what you wish it did (repo [here](https://github.com/andrewblevins/space)). SPACE will be most useful after you've followed steps 1-5 in the [Getting Started](#getting-started) section.
+_[**SPACE**](www.spaceterminal.xyz) is a simple interface designed to support advisor conversations. Repo and instructions [here](https://github.com/andrewblevins/space). SPACE will be most useful after you've followed steps 1-5 in the [Getting Started](#getting-started) section._
 
 ## What's Here
 
