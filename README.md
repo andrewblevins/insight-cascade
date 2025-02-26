@@ -43,7 +43,7 @@ _[**SPACE**](www.spaceterminal.xyz) is a simple interface designed to support ad
 
 ## Prerequisites
 
-* Access to a capable Large Language Model (at the moment we strongly recommend Claude-3.5-Sonnet as it is heads above all affordable competition for this use case)
+* Access to a capable Large Language Model (at the moment we strongly recommend Claude-3.7-Sonnet as it is heads above all affordable competition for this use case)
 * Basic understanding of how to prompt LLMs
 * Willingness to engage in reflective dialogue
 
