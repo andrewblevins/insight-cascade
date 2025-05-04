@@ -1,0 +1,10 @@
+Create a personalized board of AI advisors to support problem-solving, personal growth, and insight.
+
+1. Complete the basic_worksheet.md to identify your goals and what inspires you.
+2. Paste your filled-out worksheet and the advisor_search.txt prompt to generate potential advisor profiles.
+3. In the same chat, refine your selection to three advisors through dialogue.
+4. Use the advisor_refinement.txt prompt to pull out your three advisors.
+5. Start your journal using the journal_startup.txt prompt.
+6. Begin dialogue with your board of advisors.
+
+*You can also include the initial worksheet in your starting prompt.
