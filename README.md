@@ -6,7 +6,7 @@ Cultural evolution and cross-pollination have provided modern persons with a fea
 
 Large language models grant us more horsepower. In order to use horsepower to make a vehicle, you may need a harness: a structure for connecting, guiding, and steering potential.
 
-Insight Cascade is a curated set of such structures, with guidelines for use. Each protocol seeks to instantiate a lineage-tested method of inquiry, insight, and transformation, in forms that can be iterated on by practitioners and researchers.
+Insight Cascade is a curated set of such structures, with guidelines for use. Each protocol instantiates a lineage-tested method of inquiry, insight, and transformation, in forms that practitioners and researchers can iteratively improve.
 
 You could also describe it as a collection of interesting games to play with LLMs.
 
