@@ -1,6 +1,6 @@
 # Option Method 
 
-This protocol creates an LLM guide to help the user apply the Option Method, a structured conversation for exploring beliefs about unhappiness.
+This protocol creates an LLM guide for exploring the Option Method, a structured conversation for exploring beliefs about unhappiness.
 
 ## Quick Start
 
