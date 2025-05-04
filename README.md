@@ -1,88 +1,27 @@
 # Insight Cascade
 
-## Summon a Personal Board of Advisors with AI
+Insight Cascade is a curated open-source library of AI protocols for meditators, psychonauts, world-builders, reality enjoyers, itinerant phenomenologists, and context appreciators.
 
-This repository is a guide to creating a personalized board of AI advisors to support problem-solving, personal growth, and insight. By carefully crafting these advisor personalities and grounding them both in specific cultural lineages (academic, philosophical, spiritual, artistic, etc.) and your own personal aims, you can initiate a mode of conversation that is substantive, surprising, and sometimes deeply meaningful, with more dynamic feedback than journaling.
+Cultural evolution and cross-pollination have provided modern persons with a feast of aesthetics, frameworks, and practices for personal and collective transformation. In Buddhism, these are often referred to as "vehicles": ways of traveling somewhere you would like to go.
 
-This is part one of a larger project exploring frameworks and methods for using Large Language Models for personal and social discovery. If you are interested in being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://forms.gle/svMNnjJjJdFUjQ9L8).
+Large language models grant us more horsepower. In order to use horsepower to make a vehicle, you may need a harness: a structure for connecting, guiding, and steering potential.
 
-_[**SPACE**](www.spaceterminal.xyz) is a simple interface designed to support advisor conversations. Repo and instructions [here](https://github.com/andrewblevins/space). SPACE will be most useful after you've followed steps 1-5 in the [Getting Started](#getting-started) section._
+Insight Cascade is a curated set of such structures, with guidelines for use. Each protocol seeks to instantiate a lineage-tested method of inquiry, insight, and transformation, in forms that can be iterated on by practitioners and researchers.
 
-## What's Here
+You could also describe it as a collection of interesting games to play with LLMs.
 
-* Structured process for discovering and defining your ideal AI advisors
-* Tools for refining advisor personalities and expertise
-* Framework for ongoing dialogue and journaling
-* Safety guidelines and considerations
+Our ambition is to seed something like a Whole Earth Catalog for the AI era, giving people access to tools and resources for navigating complexity, risk, and weirdness in an increasingly psychogenic world.
 
-## Project Principles
+This repo contains:
 
-1. Maintain awareness. Regularly reflect on your use of AI. When it is helpful, how is it helpful (or not), and why? 
-2. Use AI to deepen human relationships — not to avoid, fix, replace, or optimize them.
-3. Focus on what you want to see more of in the world.
-4. Keep a sense of humor. Perhaps this is nothing but an interesting and temporary game.
+    Safety guidelines
 
-## Repository Contents
+    General spelunking advice
 
-### 1. Worksheets
+    Curated protocols (a.k.a. games)
 
-- [basic_worksheet.md](Worksheets/basic_worksheet.md): Initial questionnaire to help users identify potential advisor archetypes.
-- [detailed_worksheet.md](Worksheets/detailed_worksheet.md): Detailed guide for defining advisor characteristics.
+    Project ideas
 
-### 2. Prompts
+    Instructions for contribution (trip report templates, forks, etc.)
 
-- [1.advisors_search.txt](Prompts/1.advisors_search.txt): Generate initial advisor recommendations.
-- [2.advisors_output.txt](Prompts/2.advisors_output.txt): Get your chosen advisor personalities in usable form.
-- [3.journal_startup.txt](Prompts/3.journal_startup.txt): Initiate dialogue with your board of advisors.
-
-### 3. Documentation
-
-- [safety_guidelines.md](safety_guidelines.md): Important considerations for responsible AI interaction.
-* **example_sessions/**: Directory containing sample dialogues and use cases (TODO)
-* **advisor_templates/**: Collection of pre-crafted advisor archetypes that users can adapt (TODO)
-
-## Prerequisites
-
-* Access to a capable Large Language Model (at the moment we strongly recommend Claude-3.7-Sonnet as it is heads above all affordable competition for this use case)
-* Basic understanding of how to prompt LLMs
-* Willingness to engage in reflective dialogue
-
-## Getting Started
-
-1. Review the [safety_guidelines.md](safety_guidelines.md) document (really! it's interesting!)
-2. Complete the [basic_worksheet.md](Worksheets/basic_worksheet.md) to identify your goals and what inspires you 
-3. Paste your filled-out worksheet and the [advisor_search.txt](Prompts/1.advisors_search.txt) prompt to generate potential advisor profiles  
-4. In the same chat, refine your selection to three advisors through dialogue  
-5. Use the [advisor_refinement.txt](Prompts/2.advisors_output.txt) prompt to pull out your three advisors  
-6. Start your journal using the [journal_startup.txt](Prompts/3.journal_startup.txt) prompt  
-7. Begin dialogue with your board of advisors
-
-*As an optional modulation, you might also include the initial worksheet in your starting prompt. This will cause you to reach the usage limit faster, but will give the LLM richer context to draw from.
-
-## Best Practices
-
-* Use ongoing feedback to maintain conversational integrity
-* Document insights and breakthrough moments separately
-* Review and refine advisor profiles as needed
-* If things get stale, switch up your advisors
-* Try new things—there's a huge amount of uncharted territory here
-
-## Contributing
-
-We welcome contributions and suggestions. Feel free to open up issues and PRs for refinements, additions and new workflows. 
-
-You can also DM either of us on Twitter. 
-
-Andrew: [@andrew0blevins](https://twitter.com/andrew0blevins)
-
-Jason: [@jasnonaz](https://twitter.com/jasnonaz)
-
-And here's the link to get involved again: [Google Form](https://forms.gle/svMNnjJjJdFUjQ9L8).
-
-## Disclaimer
-
-These tools are designed for personal growth and reflection. They are not substitutes for professional medical, psychological, or therapeutic advice.
-
-## Acknowledgments
-
-Insight Cascade would not be possible without the generous support of the Context Appreciation Society.
+    Projects we find interesting
