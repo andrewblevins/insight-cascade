@@ -12,7 +12,7 @@ You could also describe it as a collection of interesting, possibly life-changin
 
 Our ambition is to seed something like a Whole Earth Catalog for the AI era, giving people access to tools and resources for navigating complexity, risk, and weirdness in an increasingly psychogenic world.
 
-_If you are interested in being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, get involved [here](https://forms.gle/svMNnjJjJdFUjQ9L8)._
+_If you are interested in being a part of a community supporting ongoing dialogue, experimentation, and refinement around these practices, sign up for our newsletter [here](https://forms.gle/svMNnjJjJdFUjQ9L8)._
 
 This repo contains:
 
@@ -28,7 +28,7 @@ This repo contains:
 
 ## Disclaimer
 
-These tools are designed for personal growth and reflection. They are not substitutes for professional medical, psychological, or therapeutic advice.
+These tools are designed for personal growth and reflection. They are not substitutes for professional medical, psychological, therapeutic, or spiritual advice.
 
 ## Contributing
 
