@@ -15,7 +15,7 @@ Through a series of questions, the method invites you to discover that underneat
 
 The process works by exploring questions like "Do I need to be unhappy about this?" and "What would happen if I weren't unhappy about it?" until you either discover an underlying want or realize the unhappiness isn't needed.
 
-The Option view is extremely simple, but easily misunderstood. To get the most out of this inquiry, we suggest these clarifying essays:
+The Option view is extremely simple but easily misunderstood. To get the most out of this inquiry, we suggest these clarifying essays:
 
 - ["How to Be Happy," by Andrew Blevins](https://andrewblevins.substack.com/p/how-to-be-happy-basically)
 - [The Option Method: The Myth of Unhappiness: The Collected Works of Bruce Di Marsico on the Option Method & Attitude](https://www.amazon.com/Option-Method-Unhappiness-Collected-Attitude/dp/1934450014/ref=sr_1_1?crid=3V48U6CTHLQTG&dib=eyJ2IjoiMSJ9.Xs2LYu7u2y6q07-0-Ld-pW5mV4PrNj1pGt5CGeM3vaKw79pPd0JotFhITC9doKrl2H-cYWY0-naquThuu_R83Gm2pnhYh-kOApR0rSHlt16lyx6ZqZSGtiWq23JCX1KH5iV3A9-Og-goMQD6EqutPcTpo5xzkDwaS5UB7p1tLG0.5lHCaHbYkUKt4wJcZ2VKCNyZbJ6ExIlmpYmrPBS7tBI&dib_tag=se&keywords=bruce+di+marsico&qid=1746399072&sprefix=bruce+di+marsico%2Caps%2C89&sr=8-1), by Bruce Di Marsico. Ed. Deborah Mendel, Wendy Dolber, Frank Mosca, & Aryeh Nielsen.
