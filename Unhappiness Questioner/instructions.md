@@ -1,10 +1,9 @@
 # Option Method 
-
-This protocol creates an LLM guide for applying the Option Method, a structured conversation for exploring beliefs about unhappiness.
+Create an LLM guide for applying the Option Method, a structured conversation for exploring beliefs about unhappiness.
 
 ## Quick Start
 
-1. Copy [option_method.md](option_method.md) into your preferred LLM interface.
+1. Copy and paste [option_method.md](option_method.md) into your preferred LLM interface and begin conversing.
 2. The LLM will guide you through questioning whether your unhappiness is necessary.
 3. Ask for a "map" at any time to see the structure of your exploration.
 
