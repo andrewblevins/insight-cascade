@@ -1,4 +1,4 @@
-# Option Method 
+# Option Method
 Create an LLM guide for applying the Option Method, a structured conversation for exploring beliefs about unhappiness.
 
 ## Quick Start
@@ -6,6 +6,8 @@ Create an LLM guide for applying the Option Method, a structured conversation fo
 1. Copy and paste [option_method.md](option_method.md) into your preferred LLM interface and begin conversing.
 2. The LLM will guide you through questioning whether your unhappiness is necessary.
 3. Ask for a "map" at any time to see the structure of your exploration.
+
+## Context
 
 The __Option Method__ is a process for questioning unhappiness, created by psychotherapist Bruce Di Marsico (1942-1995). It operates on the simple but profound premise that being unhappy is completely unnecessary – that unhappiness comes not from circumstances themselves, but from beliefs about what must happen or how we must feel.
 
