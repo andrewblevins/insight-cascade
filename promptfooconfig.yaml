@@ -1,0 +1,314 @@
+# promptfooconfig.yaml
+
+# Define which model(s) to use for evaluation
+providers:
+  - openai:gpt-3.5-turbo-instruct  # Using a cheaper model for initial testing
+
+# Define global assertions that apply to all prompts
+defaults:
+  assert:
+    - type: llm-eval
+      value: "Does the response include contributions from at least one distinctly named advisor?"
+      threshold: 0.9
+    
+    - type: llm-eval
+      value: "Does each advisor's perspective align with their established expertise or background?"
+      threshold: 0.8
+    
+    - type: llm-eval
+      value: "Do advisors demonstrate different approaches to the problem (e.g., analytical, emotional, philosophical, practical)?"
+      threshold: 0.8
+    
+    - type: llm-eval
+      value: "If multiple advisors appear in the response, is there a reasonable balance between them with no single advisor dominating the conversation?"
+      threshold: 0.8
+    
+    - type: llm-eval
+      value: "Do advisors engage with the user's specific language and framing rather than using generic platitudes?"
+      threshold: 0.8
+    
+    - type: llm-eval
+      value: "Does at least one advisor ask a question that probes deeper into the user's situation?"
+      threshold: 0.9
+
+# Define your test prompts
+prompts:
+  - name: dad-anger
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: I'm having a hard time dealing with this situation involving my dad. He is getting really angry at my brother over things that don't really seem to matter that much. Could you help me figure out what's going on for him?
+  
+  - name: bottomless-pit
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: I'm just having this feeling like my life is a bottomless pit right now. It's kind of starting in my forehead but it works its way down into my stomach if I let it drop down. It feels really bad and I bet there's some other way to feel about this but I can't find it.
+  
+  - name: scattered-projects
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: Today was really scattered. I've been having this feeling lately like I have too many projects that I want to be working on, and I'm not sure if I literally have the capacity to handle them all. Ask me questions about this.
+  
+  - name: dead-meditation
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: Lately my meditation practice has been feeling dead.
+  
+  - name: career-shift
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: I've been working in marketing for 7 years but I'm considering a career shift to UX design. I'm torn between the security of staying in my field versus the excitement of something new. I know there are good arguments both ways and I keep going in circles in my head.
+  
+  - name: friend-feelings
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: I'm in this complicated situation with a close friend. I am developing strong feelings about them and I don't know whether they feel the same way. There are lots of complicated pieces to the situation and thinking about it is taking up a lot of my energy.
+  
+  - name: bootcamp-improvement
+    prompt: |
+      You are a Board of Advisors system designed to provide multiple perspectives on a user's situation.
+      Present contrasting viewpoints from different advisors to help the user consider various angles of their situation.
+      
+      User: I'm running a software engineering bootcamp as a founder and teacher. I'm already really good at what I do, but I want strategies for getting even better. What are the highest-powered approaches coaches have used for getting athletes to incredible peak performance in a short amount of time? Focus on areas and skills I'm not likely to already know about as a teacher and engineer.
+
+# Define your test cases with specific assertions
+tests:
+  - name: dad-anger-test
+    prompt: dad-anger
+    assert:
+      - type: llm-eval
+        value: "Does the response explicitly reference the father's anger toward the brother mentioned in the prompt?"
+        threshold: 0.9
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask a specific question about the father's recent life circumstances or history?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor acknowledge the emotional impact this situation is having on the user?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "If an advisor draws on a particular framework, do they apply specific concepts from that framework to this particular family dynamic?"
+        threshold: 0.7
+      
+      - type: llm-eval
+        value: "Do advisors avoid making definitive claims about what the father is thinking without acknowledging uncertainty?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "If the advisor references work by a real person, are the concepts directly relevant to the family situation rather than generic references to their work?"
+        threshold: 0.7
+
+  - name: bottomless-pit-test
+    prompt: bottomless-pit
+    assert:
+      - type: llm-eval
+        value: "Does at least one advisor specifically reference the somatic description (forehead, stomach) when discussing the feeling?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about when this 'bottomless pit' feeling first appeared or when it tends to occur?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about what specific life circumstances might be connected to this feeling?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response include at least one question that helps explore the metaphor of a 'bottomless pit' more deeply?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid asserting perspectives before the user has provided rich information?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid diagnosing the feeling as a specific mental health condition?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor acknowledge that the user believes there are alternative ways to feel?"
+        threshold: 0.8
+
+  - name: scattered-projects-test
+    prompt: scattered-projects
+    assert:
+      - type: llm-eval
+        value: "Does at least one advisor ask specifically about the number or types of projects the user is juggling?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor explicitly acknowledge the 'scattered' feeling mentioned in the prompt?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor relate the feeling of overwhelm to a specific concept from their area of expertise?"
+        threshold: 0.7
+      
+      - type: llm-eval
+        value: "Does the response include at least three distinct questions from advisors (honoring the explicit request for questions)?"
+        threshold: 0.9
+      
+      - type: llm-eval
+        value: "Do different named advisors appear in the response?"
+        threshold: 0.9
+      
+      - type: llm-eval
+        value: "Do different advisors demonstrate recognizably distinct perspectives?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response move toward increasing the meaningfulness of the conversation?"
+        threshold: 0.7
+      
+      - type: llm-eval
+        value: "Do advisors avoid giving generic productivity advice without first seeking to understand the user's specific situation?"
+        threshold: 0.8
+
+  - name: dead-meditation-test
+    prompt: dead-meditation
+    assert:
+      - type: llm-eval
+        value: "Does at least one advisor ask how long the user has been meditating and what their practice specifically entails?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask what 'feeling dead' means to the user in the context of meditation?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about recent changes in the user's life or practice that might correlate with this feeling?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid giving lengthy explanations or solutions before gathering more information?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor express genuine, open curiosity about what the user has said?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response acknowledge that meditation practices commonly go through phases of feeling vital and lifeless?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about the user's expectations or desires for their meditation practice?"
+        threshold: 0.8
+
+  - name: career-shift-test
+    prompt: career-shift
+    assert:
+      - type: llm-eval
+        value: "Does at least one advisor specifically mention transferable skills between marketing and UX design?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor acknowledge the specific timeframe (7 years) mentioned in the prompt?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor address the 'going in circles' mental pattern described by the user?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors acknowledge both the appeal of security and the call for change without immediately favoring either direction?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response include reference to both the security aspect and the excitement aspect explicitly mentioned in the prompt?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid dismissing the legitimacy of either staying or changing careers?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid presenting the situation as a simple binary choice?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about what specifically excites the user about UX design?"
+        threshold: 0.8
+
+  - name: friend-feelings-test
+    prompt: friend-feelings
+    assert:
+      - type: llm-eval
+        value: "Does at least one advisor acknowledge the emotional energy cost mentioned in the prompt?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about specific signs or behaviors from the friend that might indicate their feelings?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about what 'complicated pieces' make the situation complex?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor explore how the user's uncertainty is affecting the friendship currently?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid pushing for immediate disclosure of feelings without considering consequences?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask about the user's desires for this relationship?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response acknowledge both potential benefits and risks of pursuing romantic feelings in a friendship?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor ask how long the user has had these feelings or how they developed?"
+        threshold: 0.8
+
+  - name: bootcamp-improvement-test
+    prompt: bootcamp-improvement
+    assert:
+      - type: llm-eval
+        value: "Does at least one advisor make a specific connection between athletic coaching and educational contexts?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor reference a specific coaching methodology or framework by name?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response include at least one non-obvious or counterintuitive suggestion?"
+        threshold: 0.7
+      
+      - type: llm-eval
+        value: "Does at least one advisor address the mental/psychological aspects of peak performance, not just techniques?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor mention a specific assessment or feedback mechanism used in elite coaching?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Do advisors avoid providing only generic teaching advice that any educator would already know?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does at least one advisor acknowledge the specific context of a bootcamp (intensive, time-limited training)?"
+        threshold: 0.8
+      
+      - type: llm-eval
+        value: "Does the response include at least one suggestion that goes beyond the user's identified domains (teaching and engineering)?"
+        threshold: 0.8
